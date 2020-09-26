@@ -1,0 +1,110 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    border: 6px solid black;
+    width: 400px;
+    height: 380px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 9% 13% 13% 23% 15% 15% 3%;
+    grid-template-rows: 9% 24% 24% 12% 12% 7% 3%;
+    grid-gap: 1.5%;
+}
+
+@media(max-width: 500px){
+    .container{
+        border: 4.5px solid black;
+        width: 300px;
+        height: 290px;
+    }
+}
+
+.item-1{
+    grid-column: span 2;
+    background-color: white;
+}
+
+.item-2{
+    grid-column: span 2;
+    background-color: white;
+}
+
+.item-3{
+    grid-column: span 2;
+    background-color: yellow;
+}
+
+.item-4{
+    grid-row: span 4;
+    background-color: white;
+}
+
+.item-5{
+    background-color: white;
+}
+
+.item-6{
+    grid-column: span 3;
+    grid-row: span 2;
+    background-color: red;
+}
+
+.item-7{
+    grid-column: span 2;
+    background-color: yellow;
+}
+
+.item-8{
+    grid-row: span 2;
+    background-color: white;
+}
+
+.item-9, .item-10, .item-12, .item-16{
+    background-color: white;
+}
+
+.item-11, .item-15{
+    grid-column: span 2;
+    background-color: black;
+}
+
+.item-13{
+    grid-column: span 2;
+    background-color: white;
+}
+
+.item-14{
+    grid-row: span 3;
+    background-color: yellow;
+}
+
+.item-17{
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: #010580;
+}
+
+.item-18{
+    grid-row: span 3;
+    background-color: red;
+}
+
+.item-19{
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: white;
+}
+
+.item-20{
+    background-color: black;
+}
+
+.item-21{
+    grid-column: span 3;
+    background-color: white;
+}
